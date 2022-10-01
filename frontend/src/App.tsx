@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import useMovies from "./hooks/useMovies";
+import MovieOverview from "./components/MovieOverview";
+import CreateMovie from "./components/CreateMovie";
 
-function App() {
+
+
+export default function App() {
+
+  const {movies, addMovie}= useMovies()
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <header className=" ">
+          <img src={" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXU4g3O3dFVLoYQL4dHlzc_P00QOueiWkMHg&usqp=CAU"} alt="logo" />
+            <h1>My cozy Library from Movie</h1>
+          <MovieOverview movies = {movies} />
+          <CreateMovie addMovie={addMovie} />
+        </header>
+      </div>
   );
 }
-
-export default App;

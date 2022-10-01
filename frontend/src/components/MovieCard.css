@@ -1,0 +1,39 @@
+.movieCardHaupt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.movieCard {
+
+    height: 60%;
+    width: 42%;
+    border : 5px ridge #f6fb63;
+    border-radius: 50px  ;
+    margin: 2%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: beige;
+
+
+}
+
+.image {
+    height: 600px;
+    width: 400px;
+    margin: 2%;
+
+
+}
+
+.movie {
+
+
+}
