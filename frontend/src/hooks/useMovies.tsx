@@ -28,8 +28,13 @@ export default function useMovies() {
     }
 
 
+    function deleteMovie (id: number) {
+        return axios.delete("/api/movie/" + id)
+            .then(getAllMovies)
+            .catch(console.error)
+    }
 
 
 
-    return {movies, addMovie}
+    return {movies, addMovie, deleteMovie}
 }

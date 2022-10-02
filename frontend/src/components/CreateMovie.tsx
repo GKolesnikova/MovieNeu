@@ -54,9 +54,10 @@ export default function CreateMovie (props: CreateMovieProps) {
                         <label>
                             <p>New Id:</p>
                             <input type="number"
+                                   className={""}
                                    name="id"
                                    value={newMovie.id}
-                                   className={""}
+                                   placeholder="Schreib ID"
                                    onChange={handleChange}
                             />
                         </label>
@@ -67,6 +68,7 @@ export default function CreateMovie (props: CreateMovieProps) {
                                    className={" "}
                                    name="title"
                                    value={newMovie.title}
+                                   placeholder="Schreib Titel"
                                    onChange={handleChange}
                             />
                         </label>
@@ -77,6 +79,7 @@ export default function CreateMovie (props: CreateMovieProps) {
                                    className={" "}
                                    name="image"
                                    value={newMovie.image}
+                                   placeholder="Schreib URI "
                                    onChange={handleChange}
                             />
                         </label>
@@ -87,6 +90,7 @@ export default function CreateMovie (props: CreateMovieProps) {
                                    className={" "}
                                    name="author"
                                    value={newMovie.author}
+                                   placeholder="Schreib Author"
                                    onChange={handleChange}
                             />
                         </label>
@@ -97,7 +101,8 @@ export default function CreateMovie (props: CreateMovieProps) {
                                    className={" "}
                                    name="comment"
                                    value={newMovie.comment}
-                                    onChange={handleChange}
+                                   placeholder="Schreib Comment"
+                                   onChange={handleChange}
                             />
                         </label>
 
@@ -113,10 +118,13 @@ export default function CreateMovie (props: CreateMovieProps) {
                         </label>
 
                         <div>
-                            <button > Create new Movie </button>
+                            <button> Create new Movie </button>
                         </div>
                 </form>
             </div>);
+
+
+
 
 
 }
