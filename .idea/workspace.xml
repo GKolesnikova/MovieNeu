@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="add put in controller">
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MovieOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MovieOverview.tsx" afterDir="false" />
+    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="add filter">
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MovieDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
       <list>
         <option value="Class" />
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -104,7 +106,7 @@
       <updated>1664558319329</updated>
       <workItem from="1664558321486" duration="1748000" />
       <workItem from="1664560109724" duration="2659000" />
-      <workItem from="1664565602182" duration="39546000" />
+      <workItem from="1664565602182" duration="41141000" />
     </task>
     <task id="LOCAL-00001" summary="erste commit">
       <created>1664560233205</created>
@@ -134,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664683137276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add filter">
+      <created>1664684480645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664684480645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +168,7 @@
     <MESSAGE value="add feach" />
     <MESSAGE value="add create neu Movie (ohne css, kommt spater)" />
     <MESSAGE value="add put in controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add put in controller" />
+    <MESSAGE value="add filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add filter" />
   </component>
 </project>
