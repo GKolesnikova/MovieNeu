@@ -3,7 +3,9 @@ import {Link, useParams} from "react-router-dom";
 
 
 export type MovieDetailsPageProps = {
-    movies: Movie []
+
+    movie : Movie [];
+
 }
 
 
@@ -16,7 +18,7 @@ export default function MovieDetailsPage (props: MovieDetailsPageProps) {
         return (<>Movie not found!</>);
     }
 
-     const movie = props.movies.find(movie => movie.id === parseInt(id))
+     const movie = props.movie.find(movie => movie.id === parseInt(id))
 
      if (movie === undefined) {
         return (<>Movie not found!</>)

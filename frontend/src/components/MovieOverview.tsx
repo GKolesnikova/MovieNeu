@@ -35,5 +35,6 @@ export default function MovieOverview (props: MovieOverviewProps) {
 
         {props.movies.map(
             (movie) => <MovieCard   movie={movie}   deleteMovie={props.deleteMovie}/>)}
+
     </div>
 }

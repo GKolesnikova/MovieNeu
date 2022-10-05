@@ -20,6 +20,13 @@ export default function useMovies() {
             .catch(console.error)
     }
 
+    const getMoviesById = (id: number) => {
+        axios.get("/api/movie/" +id)
+            .then(response => response.data)
+            .then(data => setMovies(data))
+            .catch(console.error)
+    }
+
     const addMovie = (newMovie: Movie) => {
         return axios.post("/api/movie", newMovie)
             .then(response => response.data)
@@ -36,5 +43,5 @@ export default function useMovies() {
 
 
 
-    return {movies, addMovie, deleteMovie}
+    return {movies,getMoviesById, addMovie, deleteMovie}
 }
