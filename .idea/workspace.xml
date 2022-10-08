@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="heroku add">
+    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="heroku add1">
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <recent name="com.example.backend.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -120,7 +121,7 @@
       <workItem from="1664560109724" duration="2659000" />
       <workItem from="1664565602182" duration="53292000" />
       <workItem from="1664932775825" duration="2986000" />
-      <workItem from="1665003971497" duration="23185000" />
+      <workItem from="1665003971497" duration="24794000" />
     </task>
     <task id="LOCAL-00001" summary="erste commit">
       <created>1664560233205</created>
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665249457479</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="heroku add1">
+      <created>1665250414958</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665250414958</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +223,7 @@
     <MESSAGE value="add MovieDetailsPage + Routes" />
     <MESSAGE value="heroku" />
     <MESSAGE value="heroku add" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku add" />
+    <MESSAGE value="heroku add1" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku add1" />
   </component>
 </project>
