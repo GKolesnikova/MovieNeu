@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="add MovieDetailsPage + Routes">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deployToHeroku.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_record_codec_4_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="heroku">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deployToHeroku.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deployToHeroku.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/repo/MovieRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/repo/MovieRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/backend/service/MovieServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/backend/service/MovieServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/CreateMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CreateMovie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MovieCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MovieCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MovieOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MovieOverview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useMovies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useMovies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/model/Movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/model/Movie.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MovieDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MovieDetailsPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +72,16 @@
       <recent name="com.example.backend.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BackendApplication">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="MONGO_ATLAS_KEY" value="mongodb+srv://user:YsxoVLk1DAvwifwA@cluster0.ip6luji.mongodb.net/?retryWrites=true&amp;w\=majority" />
+        <env name=" " value=" " />
+      </envs>
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.backend.BackendApplication" />
       <method v="2">
@@ -117,6 +98,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="Spring Boot.BackendApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
@@ -135,7 +121,7 @@
       <workItem from="1664560109724" duration="2659000" />
       <workItem from="1664565602182" duration="53292000" />
       <workItem from="1664932775825" duration="2986000" />
-      <workItem from="1665003971497" duration="16311000" />
+      <workItem from="1665003971497" duration="22254000" />
     </task>
     <task id="LOCAL-00001" summary="erste commit">
       <created>1664560233205</created>
@@ -186,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664740028107</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="heroku">
+      <created>1665196163752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665196163752</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +207,7 @@
     <MESSAGE value="add filter" />
     <MESSAGE value="add MovieDetailsPage" />
     <MESSAGE value="add MovieDetailsPage + Routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MovieDetailsPage + Routes" />
+    <MESSAGE value="heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku" />
   </component>
 </project>

@@ -46,8 +46,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-backend
     environment:
-      name: Insane MovieDB Deployed
-      url: https://insane-movie-db.herokuapp.com/
+      name:  MovieDB Deployed
+      url: https://galinas-movie-app.herokuapp.com/
     env:
       HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
     steps:
@@ -59,6 +59,6 @@ jobs:
       - name: Login to Heroku
         run: heroku container:login
       - name: Push Docker Image
-        run: heroku container:push web -a insane-movie-db
+        run: heroku container:push web -a galinas-movie-app
       - name: Release Docker Container
-        run: heroku container:release web -a insane-movie-db
+        run: heroku container:release web -a galinas-movie-app
