@@ -1,6 +1,6 @@
 export type Movie = {
 
-    id : number;
+    id : string;
     title : string;
     image : string;
     author : string;

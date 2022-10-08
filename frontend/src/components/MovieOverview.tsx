@@ -5,7 +5,7 @@ import {useState} from "react";
 
 type MovieOverviewProps = {
     movies: Movie[]
-    deleteMovie : (id: number) => void;
+    deleteMovie : (id: string) => void;
 
 }
 

@@ -17,34 +17,34 @@ public class MovieService {
 
 
     public List<Movie> getAllMovies() {
-        return movieRepo.getAllMovies();
+        return movieRepo.findAll();
     }
 
     public Movie addNewMovie(Movie newMovie) {
-        return movieRepo.addMovie (newMovie.getId(), newMovie);
+        return movieRepo.save (newMovie);
     }
 
 
-    public Movie getMovieById(Integer id) {
-        return MovieRepo.getMovieById (id)
+    public Movie getMovieById(String id) {
+        return movieRepo.findById (id)
                 .orElseThrow( () -> new NoSuchElementException("Movie not found with id: " + id));
     }
 
 
-    public Movie updateMovie (Integer id, Movie movie) {
-        movieRepo.addMovie (id, movie);
+    public Movie updateMovie (String id, Movie movie) {
+        movieRepo.save (movie);
         return movie;
 
     }
 
 
-    public void deleteMovie(Integer id) {
-        Optional<Movie> movie  = MovieRepo.getMovieById (id);
+    public void deleteMovie(String id) {
+        Optional<Movie> movie  = movieRepo.findById (id);
 
         if (movie.isEmpty()) {
             System.out.println("Movie was not really, it didn't exist in the fist place!");
         } else {
-            MovieRepo.deleteMovie (id);
+            movieRepo.deleteById (id);
         }
     }
 

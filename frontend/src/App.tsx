@@ -28,6 +28,7 @@ export default function App() {
               <Routes>
                   <Route path={"/"} element={<MovieOverview movies = {movies} deleteMovie={deleteMovie}/>} />
                   <Route path={"/movie/:id"} element={<MovieDetailsPage  movie = {movies} />} />
+                  <Route path={"/formular"} element={<CreateMovie  addMovie = {addMovie} />} />
               </Routes>
           </HashRouter>
 

@@ -12,7 +12,7 @@ export default function CreateMovie (props: CreateMovieProps) {
 
 
     const [newMovie, setMovie] = React.useState({
-        id: 0,
+        id: "",
         title: "",
         image: "",
         author: "",
@@ -53,7 +53,7 @@ export default function CreateMovie (props: CreateMovieProps) {
                     <h2>Add new Movie</h2>
                         <label>
                             <p>New Id:</p>
-                            <input type="number"
+                            <input type="text"
                                    className={""}
                                    name="id"
                                    value={newMovie.id}

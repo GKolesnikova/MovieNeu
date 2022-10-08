@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 type MovieCardProps = {
     movie: Movie
-    deleteMovie : (id: number) => void;
+    deleteMovie : (id: string) => void;
 
 }
 

@@ -18,7 +18,7 @@ export default function MovieDetailsPage (props: MovieDetailsPageProps) {
         return (<>Movie not found!</>);
     }
 
-     const movie = props.movie.find(movie => movie.id === parseInt(id))
+     const movie = props.movie.find(movie => movie.id === id)
 
      if (movie === undefined) {
         return (<>Movie not found!</>)

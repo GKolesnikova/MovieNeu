@@ -29,17 +29,17 @@ public class MovieController {
     }
 
     @GetMapping("/{id}")
-    public Movie getMovieById(@PathVariable Integer id ){
+    public Movie getMovieById(@PathVariable String id ){
         return movieService.getMovieById(id);
     }
 
     @PutMapping(path = "/{id}")
-    public Movie updateMovie (@PathVariable Integer id, @RequestBody Movie movie) {
+    public Movie updateMovie (@PathVariable String id, @RequestBody Movie movie) {
         return movieService.updateMovie (id, movie);
     }
 
     @DeleteMapping("/{id}")
-    public void deleteMovie(@PathVariable Integer id){
+    public void deleteMovie(@PathVariable String id){
         movieService.deleteMovie(id);
     }
 

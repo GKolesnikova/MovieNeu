@@ -20,7 +20,7 @@ export default function useMovies() {
             .catch(console.error)
     }
 
-    const getMoviesById = (id: number) => {
+    const getMoviesById = (id: string) => {
         axios.get("/api/movie/" +id)
             .then(response => response.data)
             .then(data => setMovies(data))
@@ -35,7 +35,7 @@ export default function useMovies() {
     }
 
 
-    function deleteMovie (id: number) {
+    function deleteMovie (id: string) {
         return axios.delete("/api/movie/" + id)
             .then(getAllMovies)
             .catch(console.error)
