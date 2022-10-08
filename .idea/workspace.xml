@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="heroku">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deployToHeroku.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deployToHeroku.yml" afterDir="false" />
+    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="heroku add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +120,7 @@
       <workItem from="1664560109724" duration="2659000" />
       <workItem from="1664565602182" duration="53292000" />
       <workItem from="1664932775825" duration="2986000" />
-      <workItem from="1665003971497" duration="22254000" />
+      <workItem from="1665003971497" duration="23185000" />
     </task>
     <task id="LOCAL-00001" summary="erste commit">
       <created>1664560233205</created>
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665196163752</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="heroku add">
+      <created>1665249457479</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665249457479</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +214,7 @@
     <MESSAGE value="add MovieDetailsPage" />
     <MESSAGE value="add MovieDetailsPage + Routes" />
     <MESSAGE value="heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku" />
+    <MESSAGE value="heroku add" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku add" />
   </component>
 </project>
