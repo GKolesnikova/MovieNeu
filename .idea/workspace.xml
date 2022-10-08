@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+     <list default="true" id="6723d2c7-e935-4a7e-a31a-7af2d46eef5f" name="Changes" comment="heroku add1">
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +44,17 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.start">
+   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.backend.service" />
+      <recent name="com.example.backend.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
+ 
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -82,7 +90,83 @@
       <option name="presentableId" value="Default" />
       <updated>1664558319329</updated>
       <workItem from="1664558321486" duration="1748000" />
+       <workItem from="1664560109724" duration="2659000" />
+      <workItem from="1664565602182" duration="53292000" />
+      <workItem from="1664932775825" duration="2986000" />
+      <workItem from="1665003971497" duration="24794000" />
     </task>
+    <task id="LOCAL-00001" summary="erste commit">
+      <created>1664560233205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664560233205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add feach">
+      <created>1664560575336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664560575336</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add create neu Movie (ohne css, kommt spater)">
+      <created>1664661251460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664661251460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add put in controller">
+      <created>1664683137276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664683137276</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add filter">
+      <created>1664684480645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664684480645</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add MovieDetailsPage">
+      <created>1664686016629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664686016629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add MovieDetailsPage + Routes">
+      <created>1664740028107</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664740028107</updated>
+    </task>
+    <task id="LOCAL-00008" summary="heroku">
+      <created>1665196163752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665196163752</updated>
+    </task>
+    <task id="LOCAL-00009" summary="heroku add">
+      <created>1665249457479</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665249457479</updated>
+    </task>
+    <task id="LOCAL-00010" summary="heroku add1">
+      <created>1665250414958</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665250414958</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+ 
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +187,16 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/backend" />
     </ignored-roots>
+     <MESSAGE value="erste commit" />
+    <MESSAGE value="add feach" />
+    <MESSAGE value="add create neu Movie (ohne css, kommt spater)" />
+    <MESSAGE value="add put in controller" />
+    <MESSAGE value="add filter" />
+    <MESSAGE value="add MovieDetailsPage" />
+    <MESSAGE value="add MovieDetailsPage + Routes" />
+    <MESSAGE value="heroku" />
+    <MESSAGE value="heroku add" />
+    <MESSAGE value="heroku add1" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku add1" />
   </component>
 </project>
