@@ -12,7 +12,7 @@ import NavBar from "./components/NavBar";
 
 export default function App() {
 
-  const {movies, addMovie, getMoviesById, deleteMovie}= useMovies()
+  const {movies, addMovie, deleteMovie}= useMovies()
 
 
 

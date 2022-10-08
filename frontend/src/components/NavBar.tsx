@@ -1,5 +1,4 @@
 import {NavLink} from "react-router-dom";
-import CreateMovie from "./CreateMovie";
 
 
 export default function  NavBar () {

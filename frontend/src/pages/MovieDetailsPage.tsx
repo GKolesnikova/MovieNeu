@@ -34,7 +34,7 @@ export default function MovieDetailsPage (props: MovieDetailsPageProps) {
             <div className={"movie"}>
                 <div className={" id"}>ID des Movies : {movie.id}</div>
                 <div className={" title"}><h2>{movie.title}</h2></div>
-                <img className={" image"} src={movie.image}/>
+                <img className={" image"} src={movie.image} alt={movie.title}/>
                 <div className={" author"}> {movie.author}</div>
                 <div className={" comment"}><h3>Comment : "{movie.comment}"</h3></div>
             </div>
